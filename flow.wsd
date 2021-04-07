@@ -1,0 +1,8 @@
+@startuml flow
+left to right direction
+title Flow
+Client => ResourceOwner : Authorization Request
+ResourceOwner => Client : Authorization Grant
+
+ 
+@enduml
